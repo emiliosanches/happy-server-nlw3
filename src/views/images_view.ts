@@ -4,7 +4,7 @@ export class ImagesView {
     static render(image: Image) {
         return {
             id: image.id,
-            url: `http://localhost:25565/uploads/${image.path}`
+            url: `http://192.168.100.6:25565/uploads/${image.path}`
         };
     }
 
